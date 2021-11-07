@@ -1,3 +1,4 @@
+# a > b then ggT(a, b) = ggT(b, a mod b)
 num1 = int(input("Please enter number a: "))
 num2 = int(input("Please enter number b: "))
 
