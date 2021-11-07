@@ -1,4 +1,5 @@
 # a > b then ggT(a, b) = ggT(b, a mod b)
+# algorithms ends if a mod b == 0, because then b = ggT(a , b)
 num1 = int(input("Please enter number a: "))
 num2 = int(input("Please enter number b: "))
 
