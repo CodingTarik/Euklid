@@ -4,7 +4,7 @@ num2 = int(input("Please enter number b: "))
 
 a = num1 if num1 > num2 else num2
 b = num2 if a == num1 else num1
-ggt = -999
+ggt = float("NaN")
 while(True):
     if(a % b == 0):
         ggt = b
